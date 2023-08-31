@@ -1,0 +1,53 @@
+body{
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: inherit; */
+    margin: 0px;
+    padding: 0px;
+    }
+    #nav{
+     display: flex;
+     justify-content: space-between;
+    background-color: black;
+    color: wheat;
+    padding: 0px 20px;
+    
+    }
+    #left{
+     display: flex;
+     gap: 20px  ;   
+    }
+    #right{
+        display: flex;
+        gap: 20px  ;    
+    }
+    #section1{
+        display: flex;
+        justify-content: space-between;
+        background-color: chocolate;
+        color: wheat;
+        padding: 0px 20px;  
+        margin-top: 10px;
+        margin-bottom: 10px ;
+    }
+    #leftdiv{
+        display: flex;
+        
+    }
+    #rightdiv{
+        display: flex;
+    }
+    #centerdiv{
+        display: flex;
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        padding: 20px;
+    }
+    a:hover{
+        color: green;
+        background-color: black;
+    
+    }
